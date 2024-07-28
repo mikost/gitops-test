@@ -4,3 +4,7 @@ kind: Kustomization
 namespace: cert-manager
 resources:
 - https://github.com/cert-manager/cert-manager/releases/download/v1.15.1/cert-manager.yaml
+- cert-manager-cainjector-leaderelection-role.yaml
+- cert-manager-leaderelection-role.yaml
+- cert-manager-cainjector-leaderelection-rolebinding.yaml
+- cert-manager-leaderelection-rolebinding.yaml
